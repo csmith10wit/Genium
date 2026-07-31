@@ -525,3 +525,30 @@ h1 em { font-style: normal; color: #7eb8ff; display: block; }
 .social-card.expanded .social-card-chevron svg { stroke: #fff; }
 .social-card-chevron svg { width: 14px; height: 14px; stroke: var(--accent); transition: stroke 0.2s; }
 
+.logo-img{
+    width:36px;
+    height:36px;
+    object-fit:contain;
+    display:block;
+    flex-shrink:0;
+}
+
+.news-image{
+    width:100%;
+    overflow:hidden;
+}
+
+.news-image img{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:contain;
+    object-position:center;
+}
+
+.news-card img{
+    width:350px;
+    display:block;
+    object-fit:contain;
+    object-position:center;
+}
